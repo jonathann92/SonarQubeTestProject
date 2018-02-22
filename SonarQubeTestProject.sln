@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SonarQubeTestProject", "SonarQubeTestProject\SonarQubeTestProject.csproj", "{1FBF166A-034E-46CA-A5DC-8D73A1FFAD51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FBF166A-034E-46CA-A5DC-8D73A1FFAD51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FBF166A-034E-46CA-A5DC-8D73A1FFAD51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FBF166A-034E-46CA-A5DC-8D73A1FFAD51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FBF166A-034E-46CA-A5DC-8D73A1FFAD51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
