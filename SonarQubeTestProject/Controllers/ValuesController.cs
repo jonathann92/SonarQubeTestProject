@@ -9,10 +9,20 @@ namespace SonarQubeTestProject.Controllers
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
+
+        private class Person
+        {
+            public string FirstName { get; set; }
+            public string LastName { get; set; }
+        }
+
         // GET api/values
         [HttpGet]
         public IEnumerable<string> Get()
         {
+            Person p = null;
+            p.FirstName = "Jonathan";
+            p.LastName = "Nguyen";
             return new string[] {"value1", "value2"};
         }
 
